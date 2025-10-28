@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Yoshi's Portfolio</title>
+  <title>Contact - Portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
@@ -15,11 +15,11 @@
     <div class="container nav-container">
       <a href="index.html" class="nav-logo">Yoshi</a>
       <ul class="nav-links">
-        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="skills.html">Skills</a></li>
         <li><a href="projects.html">Projects</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
       </ul>
       <button class="theme-toggle" id="themeToggle" aria-label="Toggle Dark/Light">
         <span class="icon" id="themeIcon" aria-hidden="true">🌙</span>
@@ -29,23 +29,15 @@
   </nav>
 
   <main>
-    <section class="hero section container">
-      <div class="profile-section">
-        <img class="avatar" src="https://via.placeholder.com/96x96.png?text=Avatar" alt="Avatar" width="96" height="96">
-        <div class="identity">
-          <h1 class="name">Trần Hữu Lộc (Yoshi)</h1>
-          <p class="role">Lập trình viên</p>
-          <p class="tagline">Fueled by coffee, powered by code.</p>
-        </div>
-      </div>
-      
-      <div class="hero-content">
-        <p>Chào mừng bạn đến với portfolio của mình! 👋</p>
-        <p>Mình là một lập trình viên đam mê công nghệ, đặc biệt là trong lĩnh vực AI và Web Development.</p>
-        <div class="hero-cta">
-          <a href="about.html" class="btn">Tìm hiểu thêm về mình</a>
-          <a href="projects.html" class="btn">Xem các dự án</a>
-        </div>
+    <section id="contact" class="section container">
+      <h2 class="section-title">Contact</h2>
+      <div class="contact-content">
+        <p>Bạn có thể liên hệ với mình qua các phương tiện sau:</p>
+        <ul class="contact-list">
+          <li>📧 Email: <a href="mailto:loctranvodanh@gmail.com">loctranvodanh@gmail.com</a></li>
+          <li>🔵 Facebook: <a href="https://facebook.com/Whale.312" target="_blank" rel="noopener">My Facebook</a></li>
+          <li>⚡ GitHub: <a href="https://github.com/loctran312" target="_blank" rel="noopener">My GitHub</a></li>
+        </ul>
       </div>
     </section>
   </main>

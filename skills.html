@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skills - Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="navigation.css">
+</head>
+<body data-theme="dark">
+  <nav class="main-nav">
+    <div class="container nav-container">
+      <a href="index.html" class="nav-logo">Yoshi</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html" class="active">Skills</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle Dark/Light">
+        <span class="icon" id="themeIcon" aria-hidden="true">🌙</span>
+        <span class="label" id="themeLabel">Dark</span>
+      </button>
+    </div>
+  </nav>
+
+  <main>
+    <section id="skills" class="section container">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3>Ngôn ngữ lập trình</h3>
+          <div class="skill"><span>Python 🐍</span><div class="bar"><div class="fill" style="width: 85%"></div></div></div>
+          <div class="skill"><span>Java ☕</span><div class="bar"><div class="fill" style="width: 75%"></div></div></div>
+          <div class="skill"><span>C++ 🔧</span><div class="bar"><div class="fill" style="width: 70%"></div></div></div>
+          <div class="skill"><span>C# 🎯</span><div class="bar"><div class="fill" style="width: 65%"></div></div></div>
+        </div>
+        <div class="skill-group">
+          <h3>Framework</h3>
+          <div class="skill"><span>React ⚛️</span><div class="bar"><div class="fill" style="width: 80%"></div></div></div>
+          <div class="skill"><span>Spring Boot 🌱</span><div class="bar"><div class="fill" style="width: 75%"></div></div></div>
+        </div>
+        <div class="skill-group">
+          <h3>Web</h3>
+          <div class="skill"><span>HTML 🟧</span><div class="bar"><div class="fill" style="width: 80%"></div></div></div>
+          <div class="skill"><span>CSS 🟦</span><div class="bar"><div class="fill" style="width: 80%"></div></div></div>
+          <div class="skill"><span>JavaScript 🟨</span><div class="bar"><div class="fill" style="width: 80%"></div></div></div>
+        </div>
+        <div class="skill-group">
+          <h3>Tools</h3>
+          <div class="skill"><span>VSCode 💻</span><div class="bar"><div class="fill" style="width: 90%"></div></div></div>
+          <div class="skill"><span>Git 🔧</span><div class="bar"><div class="fill" style="width: 80%"></div></div></div>
+          <div class="skill"><span>Android Studio 🤖</span><div class="bar"><div class="fill" style="width: 80%"></div></div></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Thanks for visiting my portfolio ✨</p>
+    </div>
+  </footer>
+
+  <script src="theme.js"></script>
+</body>
+</html>

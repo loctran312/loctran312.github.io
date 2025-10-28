@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects - Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="navigation.css">
+</head>
+<body data-theme="dark">
+  <nav class="main-nav">
+    <div class="container nav-container">
+      <a href="index.html" class="nav-logo">Yoshi</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle Dark/Light">
+        <span class="icon" id="themeIcon" aria-hidden="true">🌙</span>
+        <span class="label" id="themeLabel">Dark</span>
+      </button>
+    </div>
+  </nav>
+
+  <main>
+    <section id="projects" class="section container">
+      <h2 class="section-title">Projects</h2>
+
+      <div class="project-cards">
+        <article class="card">
+          <h3>🚀 Dự án Nghiên cứu khoa học</h3>
+          <h4>🏆 CPP Auto Grader</h4>
+          <p>Công cụ chấm code C++ tự động – Dự án nghiên cứu khoa học, hỗ trợ giảng dạy &amp; đánh giá lập trình.</p>
+          <ul>
+            <li>✨ Tự động biên dịch &amp; chạy test case</li>
+            <li>📊 Xuất kết quả chấm điểm chi tiết</li>
+            <li>🖥️ Ứng dụng trong đào tạo lập trình C++</li>
+          </ul>
+          <a class="btn" href="https://github.com/loctran312/cpp-auto-grader" target="_blank" rel="noopener">GitHub</a>
+        </article>
+
+        <article class="card">
+          <h3>📂 Dự án tiêu biểu</h3>
+          <ul>
+            <li>🤖 <a class="btn" href="#" target="_blank" rel="noopener">AI Chatbot</a> – Chatbot đơn giản viết bằng Python</li>
+            <li>🌐 <a class="btn" href="#" target="_blank" rel="noopener">Spring Boot Website</a> – Website quản lý sinh viên </li>
+            <li>💻 <a class="btn" href="#" target="_blank" rel="noopener">Portfolio</a> – Website cá nhân </li>
+          </ul>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Thanks for visiting my portfolio ✨</p>
+    </div>
+  </footer>
+
+  <script src="theme.js"></script>
+</body>
+</html>
